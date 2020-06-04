@@ -1,0 +1,11 @@
+Status: wip
+
+Compiled but not yet tested
+
+
+
+This app is based on works of Tin Rabzelj 
+
+ARTICLE: Building a Microservices Application in Go Following the CQRS Pattern
+URL https://outcrawl.com/go-microservices-cqrs-docker
+GITHUB: https://github.com/tinrab/meower.git
