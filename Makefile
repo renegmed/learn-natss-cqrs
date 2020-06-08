@@ -18,9 +18,9 @@ prune:
 query-meows:
 	curl http://localhost:7474/meows 
 query-search:
-	curl http://localhost:7474/search?query=cat&skip=0&take=5
+	curl http://localhost:7474/search?query=rambutans&skip=0&take=5
 .PHONY: query-meows query-search
 
 push:
-	curl http://localhost:7676/pusher 
+	curl -X POST http://localhost:8080/meows?body=rambutans
 .PHONY: push
